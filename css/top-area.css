@@ -1,0 +1,106 @@
+#top-area{
+background: url('https://c8.alamy.com/comp/PDH5KW/plastic-garbage-floating-in-the-ocean-unlike-organic-debris-which-biodegrades-the-photo-degraded-plastic-disintegrates-into-smaller-and-smaller-PDH5KW.jpg');
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+width: 100%;
+padding: 180px 15px 90px 15px;
+}
+#top-area .profile-info{
+
+
+}
+#top-area .profile-info .user-img{
+  padding: 10px;
+  display: inline-block;
+}
+#top-area .profile-info .user-img img{
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: background .7s ease-in-out;
+}
+#top-area .profile-info .user-img img:hover{
+  background: #2196f3;
+}
+#top-area .profile-info .user-details{
+  display: inline-block;
+  vertical-align: top;
+}
+#top-area .profile-info .user-details h3{
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  border-radius: 3px;
+  padding: 10px 0;
+  margin-top: 63px;
+  background: rgba(51,52.2,60,.7);
+  transition: background .7s ease-in-out;
+}
+#top-area .profile-info .user-details h3:hover{
+  background: #2196f3;
+}
+#top-area .profile-info .user-details a{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  width: 50%;
+  text-align: center;
+  padding: 10px 0 3px 0;
+  background: rgba(51,52.2,60,.7);
+  margin: 2px 0 5px -2px;
+  display: inline-block;
+  transition: background .7s ease-in-out;
+}
+#top-area .profile-info .user-details a:hover{
+  background: #e93c64;
+}
+#top-area .profile-info .user-details .left-btn {
+  -webkit-border-top-left-radius: 50px;
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-right-radius: 64px;
+-webkit-border-bottom-left-radius: 50px;
+-moz-border-radius-topleft: 50px;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomright: 64px;
+-moz-border-radius-bottomleft: 50px;
+border-top-left-radius: 50px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 64px;
+border-bottom-left-radius: 50px;
+}
+#top-area .profile-info .user-details  .right-btn{
+  -webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 50px;
+-webkit-border-bottom-right-radius: 50px;
+-webkit-border-bottom-left-radius: 64px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 50px;
+-moz-border-radius-bottomright: 50px;
+-moz-border-radius-bottomleft: 64px;
+border-top-left-radius: 5px;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+border-bottom-left-radius: 64px;
+}
+
+#seal-img{
+  background: url('https://cdn.konbini.com/wp-content/blogs.dir/12/files/2019/03/sea-shepherd-plastiqueoceans2019-5-5c8b2cf9b8fca-png__700.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200vh;
+  width: 100%;
+}
+
+
+
+https://thumbnails-visually.netdna-ssl.com/the-great-pacific-garbage-patch_51eff7d49055a_w1500.png
+
+
+<section id="top-area">
+  <div class="profile-info">
+    <div class="user-img">
+      <img src="img/interFace2.png"/>
+    </div>

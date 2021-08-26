@@ -1,0 +1,300 @@
+#content-area{
+  background: #fafafa;
+  padding: 50px 0;
+  border: 1px solid black;
+  overflow: auto;
+}
+#content-area .widget-box{
+  background: #fff;
+  margin: 0 0 15px 0;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 6px 5px 0px rgba(99,96,99,1);
+ -moz-box-shadow: 0px 6px 5px 0px rgba(99,96,99,1);
+ box-shadow: 0px 6px 5px 0px rgba(99,96,99,1);
+}
+#content-area .body{
+  overflow: hidden;
+  background: #fafafa;
+}
+#content-area .side-column{
+  float: left;
+  width: 35%;
+  max-width: 380px;
+  margin: 0 2.5%;
+}
+#content-area .side-column .intro{
+
+}
+#content-area .side-column .widget-box .head{
+  background: white;
+  padding: 5px 5px;
+  display: flex;
+  align-items: center;
+
+}
+#content-area .side-column .intro .head .fa{
+  padding: 5px 5px;
+  color: #ff5253;
+}
+#content-area .side-column .body{
+  display: grid;
+  grid-gap: 2%;
+  grid-template-columns: 31.3% 31.3% 31.3%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0;
+}
+#content-area .widget-box .body .widget-img{
+
+}
+#content-area .widget-box .body-bag{
+  color: #404040;
+}
+#content-area .widget-box .body-bag p{
+  color: #9a9a9a;
+  line-height: 1.2rem;
+}
+#content-area .widget-box .body-bag a{
+  color: #2196f3;
+  font-weight: 600;
+}
+#content-area .widget-box .head .widget-icon{
+  color: #ff5253;
+  background: #bfbfbf;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#content-area .widget-box .head .widget-icon .fa{
+  font-size: 1.5rem;
+}
+#content-area .widget-box .head .widget-title{
+  color: #404040;
+  display: inline-block;
+  padding: 0 0 0 10px;
+
+  font-size: 1.2rem;
+}
+#content-area .main-area{
+  float: right;
+  width: 55%;
+  background: #fafafa;
+  margin: 0 2.5%;
+  overflow: hidden;
+}
+#content-area .main-area .content-menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  overflow: auto;
+  padding-right: 10px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 6px 5px 0px rgba(99,96,99,1);
+ -moz-box-shadow: 0px 6px 5px 0px rgba(99,96,99,1);
+ box-shadow: 0px 6px 5px 0px rgba(99,96,99,1);
+}
+#content-area .main-area .content-menu .menu-box{
+  font-size: 1.5rem;
+  color: #9a9a9a;
+  padding: 10px 0;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+#content-area .main-area .content-menu .menu-box.active{
+  border-bottom: 3px solid #2196f3;
+  color: #2196f3;
+}
+#content-area .main-area .content-menu .menu-box:hover{
+  background: #ff5253;
+}
+#content-area .main-area .content-menu .menu-box .menu-title{
+  padding-top: 5px;
+}
+#content-area .main-area .content-menu .fa{
+  font-size: 1.5rem;
+
+  display: flex;
+}
+#content-area .main-area .content-menu .ellipse{
+  padding-top: 2px;
+}
+#content-area .main-area .share-panel{
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  overflow: hidden;
+  background: #fafafa;
+  margin: 10px 0;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 6px 5px 0px rgba(99,96,99,1);
+ -moz-box-shadow: 0px 6px 5px 0px rgba(99,96,99,1);
+ box-shadow: 0px 6px 5px 0px rgba(99,96,99,1);
+}
+#content-area .main-area .share-panel .share-head{
+  display: flex;
+  align-items: flex-start;
+  padding: 15px;
+}
+#content-area .main-area .share-panel .share-head .widget-icon{
+  color: #ff5253;
+  background: #bfbfbf;
+  background: url('https://thumbs.dreamstime.com/x/user-icon-9233164.jpg');
+  border-radius: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 5s ease-in-out;
+  cursor: pointer;
+}
+#content-area .main-area .share-panel .share-head .widget-icon:hover{
+  background: rgba(255,255,255,.05);
+  z-index: 0;
+}
+#content-area .main-area .share-panel .share-head .widget-icon .fa{
+  font-size: 1.5rem;
+}
+#content-area .main-area .share-panel .share-head .share-title{
+  color: #9a9a9a;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 0 0 10px;
+
+}
+#content-area .main-area .share-panel .share-head .share-title a{
+  color: #3a92e7;
+  line-height: 1.2rem;
+}
+#content-area .main-area .share-panel .share-head .share-title a:hover{
+  color: #3a92e7;
+  text-decoration: underline;
+}
+#content-area .main-area .share-panel .share-head .share-title p{
+  font-weight: 600;
+  color: #515151;
+  padding: 0 3px;
+}
+#content-area .main-area .share-panel .share-timeStamp{
+  color: #9a9a9a;
+  display: flex;
+  align-items: flex-start;
+  overflow: hidden;
+  margin: 20px 0 0 -205px;
+}
+#content-area .main-area .share-panel .share-drop{
+  color: #9a9a9a;
+  margin-left: 365px;
+  cursor: pointer;
+}
+#content-area .main-area .post-body .big-pic{
+
+  background-image: url('https://l7.alamy.com/zooms/2abce5e29650431d96bb68e9cc757f83/pile-of-plastic-bottles-being-recycled-american-center-centre-ecology-d8y28j.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  margin: -11px 0 0 0;
+}
+#content-area .main-area .post-body .top-icons{
+ border: 1px solid black;
+ width: 100%;
+ padding: 15px;
+}
+#content-area .main-area .post-body .top-icons .fa{
+  color: #9a9a9a;
+  font-size: 1.5rem;
+}
+#content-area .main-area .post-body .top-icons .fa-thumbs-up {
+  margin-right: 15px;
+}
+#content-area .main-area .post-body .top-icons span{
+  float: right;
+  display: inline-block;
+}
+#content-area .main-area .post-comments{
+  border: 1px solid black;
+  background: #c0c0c0;
+  padding: 15px;
+  overflow: auto;
+}
+#content-area .main-area .post-body .post-comments .commentor-img{
+  /*background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/1024px-Crystal_Clear_kdm_user_female.svg.png');*/
+  border-radius: 50%;
+  width: 8%;
+  display: inline-block;
+  float: left;
+  cursor: pointer;
+}
+#content-area .main-area .post-body .post-comments .comment-section{
+  display: inline-block;
+  float: left;
+  width: 92%;
+}
+#content-area .main-area .post-body .post-comments .comment-section .commentor-info .time{
+  color: #9a9a9a;
+  float: right;
+}
+#content-area .main-area .post-form{
+padding: 15px 5px 0;
+overflow: auto;
+
+}
+#content-area .main-area .post-form .search-box{
+  display: flex;
+  padding: 15px;
+  border-bottom: 1px solid #a8a8a8;
+}
+#content-area .main-area .post-form .search-box input{
+  color: #9a9a9a;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  font-size: 18px;
+  justify-content: center;
+  border: 0 solid #fff;
+  background: transparent;
+}
+#content-area .main-area .post-form .search-box input:focus{
+  outline: none;
+}
+#content-area .main-area .post-form .search-box .form-icons {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+
+  }
+#content-area .main-area .post-form .search-box .form-icons .fa{
+  justify-content: center;
+  margin-left: 15px;
+  font-size: 1.5rem;
+  color: #9a9a9a;
+  float: right;
+}
+#content-area .main-area .post-form .widget-icon{
+
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  cursor: pointer;
+  transition: all 5s ease-in-out;
+  cursor: pointer;
+}
+#content-area .main-area .post-form .widget-icon img{
+  border-radius: 50%;
